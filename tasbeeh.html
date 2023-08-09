@@ -1,0 +1,75 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-9p/EzXeJ6jvMchMlLQ4Xwc5PQb4cBw/izF7+Z+P7wqLdN8k3jHpy3u5Rd8+Ry0AjlJ5YzXwWQo7Q+8ZL7RcG8w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <meta charset="UTF-8">
+        <link rel="icon" href="icon_dt.ico">
+        <meta thhp-equiv="X-UA-Compatible" content="IE=edge ,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>السبحه الالكترونيه</title>
+       
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+
+<body>
+      <div class="contener">
+        <div class="contener2">
+          <div title="mute" id="mute-icon" onclick="toggleMute()">
+            <i  class="fa fa-volume-up"></i>
+          </div>
+<div class="cont">
+
+    <div class="cont_up" id="col">
+
+    <div id="screen">
+       
+        <p title="counter" id="display" aria-placeholder="animation-delay" >0</p> 
+
+    </div>
+    <h6 style="margin-left: 35px; margin-top: -1px; font-size: 9px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">COUNT</h6>
+    <h6 style="margin-left: 82px; margin-top: -32px;  font-size: 10px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">RESET</h6>
+    </div>
+
+    <div class="cont_body" id="col1">
+
+    <button title="start counter" id="play" onclick="play(); "></button>
+
+    <button title="reset counter" id="reset" onclick="reset(); "></button>
+
+    </div>
+
+    <div class="cont_down" id="col2"></div>
+
+    
+    </div>  
+   
+  </div>
+  <div title="تسبيحات" class="azkar" onclick="toggleDiv();">
+    <h5 id="azkar-text" style="margin-top: 13px; direction: rtl;">بسم الله الرحمن الرحيم </h5>
+  </div>
+  <div  title="change Color" id="color-icon" onclick="changeBackgroundColor()">
+    <i class="fa fa-paint-roller"></i>
+  </div> 
+ 
+  </div>
+  
+  
+    <audio id="clickSound">
+        <source src="button-click.mp3" type="audio/mpeg">
+      
+        </audio>
+
+
+   
+<script src="script.js"></script>
+
+</body>
+
+</html>

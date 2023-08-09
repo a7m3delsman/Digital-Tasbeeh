@@ -1,0 +1,369 @@
+body{
+ background-image: url("bgtasbeeh5.jpg");
+ 
+ background-repeat: no-repeat;
+    }
+    
+    
+    *{
+    
+        outline: none;
+     
+    }
+    .azkar{
+      color: rgb(19, 8, 61);
+      margin-top: 320px;
+      align-items: center;   
+      border: 1px solid #000;
+       position: absolute;
+       justify-content: center;
+       width: 250px;
+       text-align: center;
+       font-size: 25px;
+      height: 50px;
+   border-top-right-radius: 3%;
+   border-bottom-left-radius:3% ;
+   border-top-left-radius: 60%;
+   border-bottom-right-radius:60% ;
+   background-color: cornsilk;
+   box-shadow:  0px 0px 8px .5px #000;
+  }
+  
+    
+    .contener{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #757575;
+      margin-top: 50px;
+      width: 500px;
+      border: #000;
+      height: 500px;
+     border-radius: 5%;
+     box-shadow:  0px 0px 8px .5px #000;
+     
+    }
+    .contener2{
+      margin-top: 70px;
+    }
+    .cont{
+    
+        width: 300px;
+    
+        height: 300px;
+    
+      
+    
+        margin: 150px auto;
+    
+        transform:scale(1.5);
+    
+    }
+    
+    
+    .cont > div{
+   
+        margin: 10px auto;
+   
+        position: relative;
+    
+    }
+    
+    
+    .cont_up{
+    
+        width: 150px;
+    
+        height: 100px;
+    
+        border-radius: 50px;
+    
+        background: #960098;
+    
+        z-index: 1;
+    
+    }
+    
+    
+   
+    .cont_body{
+    
+        position: relative;
+    
+        width: 140px;
+    
+        height: 150px;
+    
+        background: #960098;
+   
+        top: -82px;
+    
+       
+    
+    }
+    
+    .cont_body:after{
+    
+        position: absolute;
+    
+        content: "";
+    
+        width: 80px;
+    
+        height: 163px;
+    
+        bottom: -6px;
+    
+        left: -75px;
+    
+        /*border: 1px solid #000;*/
+    
+        border-radius: 50%;
+    
+        background:  #757575;
+   
+       
+    
+    }
+    
+    
+    .cont_body:before{
+    
+        position: absolute;
+    
+        content: "";
+    
+     width: 80px;
+    
+        height: 163px;
+    
+        bottom: -6px;
+    
+        left: 135px;
+    
+        /*border: 1px solid #000;*/
+    
+        border-radius: 50%;
+    
+        background: #757575;
+   
+       
+    
+    }
+    
+    
+    .cont_down{
+    
+        position: relative;
+    
+        width: 148px;
+    
+        height: 90px;
+    
+        border-radius: 50px;
+    
+        background: #960098;
+    
+        z-index: 1;
+    
+        top: -155px;
+    
+    }
+    
+    
+    
+    #screen{
+    
+        position: relative;
+    
+        width: 80%;
+      
+        height: 60px;
+    
+        margin-left: 14px;
+    
+        top: 10px;
+    
+        border-radius: 30px;
+    
+        border: inside 2px solid #000;
+    
+        box-shadow:  0px 0px 8px .5px #000;
+    
+    
+        opacity: .9
+    
+    }
+    @font-face {
+        font-family: digital;
+        src: url("digital-7\ \(italic\).ttf") format('truetype');
+      }
+    
+    #display{
+        font-family: "digital", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        position: relative;
+    
+        width: 75%;
+        border: 1px solid #000;
+       
+        border-radius: 10px;
+    
+ 
+        height: 30px;
+    
+        text-align: right;
+    
+        line-height: 30px;
+    
+        padding-right: 10px;
+    
+        background: #48bb51;  
+
+        font-size: 25px;
+
+        left: 10px;
+   margin-top: -2px;
+        top: 15px;
+    
+    }
+    
+    
+    button{
+    
+        display: block;
+    
+        position: absolute;
+    
+        z-index: 10;
+        
+        box-shadow: 0px 0px 10px #000;
+    
+    }
+    
+    
+    #play{
+    
+        width: 60px;
+    
+        height: 60px;
+    
+        border-radius: 50%;
+        margin-top: 5px;
+        top: 90px;
+    
+        left: 40px;
+    
+    }
+    
+    
+    #reset{
+    
+        width: 25px;
+    
+        height: 25px;
+    
+        border-radius: 50%;
+    
+        top: 63px;
+    
+        left: 88px;
+    
+    }
+    
+    
+   
+    
+    
+   
+   button:active {
+    background-color: #d9d9d9;
+    transform: scale(0.95);
+  }
+  #mute-icon:active{
+    background-color: #d9d9d9;
+    transform: scale(0.95);
+  }
+  #mute-icon.delete{
+    background-color: #ff5d5d;
+    color: #fff;
+    box-shadow: 0 2px 6px rgba(255, 93, 93, 0.4);
+  }
+  button.delete {
+    background-color: #ff5d5d;
+    color: #fff;
+    box-shadow: 0 2px 6px rgba(255, 93, 93, 0.4);
+  }
+  
+  button.delete:hover {
+    background-color: #ff7373;
+  }
+  
+  button.delete:active {
+    background-color: #dd0000;
+    transform: scale(0.95);
+  }
+  #mute-icon {
+  
+    position: absolute;
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    margin-left: -70px;
+    margin-bottom:-25px;
+    margin-top: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(0,0,0,0.8);
+}
+
+#mute-icon:hover {
+    background-color: #ff3e54;
+    color: #fff;
+}
+#color-icon {
+    position: absolute;
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    margin-left: 80%;
+    margin-bottom:80px;
+    margin-top: 490px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(0,0,0,0.8);
+}
+
+#color-icon:hover {
+    background-color: #ff3e54;
+    color: #fff;
+}
+#mute-icon:active{
+    background-color: #d9d9d9;
+    transform: scale(0.95);
+  }
+  #mute-icon.delete{
+    background-color: #ff5d5d;
+    color: #fff;
+    box-shadow: 0 2px 6px rgba(255, 93, 93, 0.4);
+  }
+  #color-icon:active{
+    background-color: #d9d9d9;
+    transform: scale(0.95);
+  }
+  #color-icon.delete{
+    background-color: #ff5d5d;
+    color: #fff;
+    box-shadow: 0 2px 6px rgba(255, 93, 93, 0.4);
+  }
+  
